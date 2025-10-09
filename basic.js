@@ -6,7 +6,7 @@
 // module     - info about current module (file)
 // process    - info about env where the program is being executed
 const util_func = require('./utils')
-const names = require('./names')
+const names = require('./family-info')
 
 util_func.hello(names.father)
 util_func.goodbye(names.mother)
