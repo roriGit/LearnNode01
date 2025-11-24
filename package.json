@@ -1,10 +1,18 @@
 {
-  "name": "LearnNode01",
+  "name": "learnnode01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "app": "node app",
+    "webserver": "node 1-webserver"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
