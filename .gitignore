@@ -1,0 +1,6 @@
+.DS_Store
+.idea/LearnNode01.iml
+.idea/modules.xml
+.idea/vcs.xml
+content/result-sync.txt
+node_modules/

@@ -12,4 +12,17 @@ const read_results = (path)=>{
         })
     })
 }
+
 read_results(path)
+    .then(results => console.log(results))
+    .catch(err => console.log(err));
+
+const first = async () => {
+    try {
+        const result = await read_results("./content/result-sync.txt");
+        console.log(result);
+    }catch(err) {
+        console.log(err);
+    }
+}
+first()
